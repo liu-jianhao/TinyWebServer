@@ -1,6 +1,4 @@
 all:
-	@rm -rf 15-441-project-1
-	@tar -mxf handin.tar
 	@mkdir -p apachebench
 	@cp ./ab ./apachebench
 	@perl -pi -e 's/HTTP\/1.0/HTTP\/1.1/g' ./apachebench/ab
