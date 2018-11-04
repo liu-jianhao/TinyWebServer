@@ -1,0 +1,6 @@
+Consider these potential vulnerabilities:
+
+- Buffer overflow
+- Unknown request/Invalid headers
+- Abrupt leaving client
+- Concurrency
