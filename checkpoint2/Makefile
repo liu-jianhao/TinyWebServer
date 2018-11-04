@@ -1,4 +1,5 @@
 all:
+	# @tar -mxf autograde.tar
 	@mkdir -p apachebench
 	@cp ./ab ./apachebench
 	@perl -pi -e 's/HTTP\/1.0/HTTP\/1.1/g' ./apachebench/ab
