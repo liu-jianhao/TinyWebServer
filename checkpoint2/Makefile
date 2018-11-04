@@ -1,6 +1,5 @@
 all:
 	@rm -rf 15-441-project-1
-	@tar -mxf autograde.tar
 	@tar -mxf handin.tar
 	@mkdir -p apachebench
 	@cp ./ab ./apachebench
